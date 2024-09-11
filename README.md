@@ -37,7 +37,10 @@ Acesse o link: [Desafio Devs](https://desafio-devs.vercel.app/)
 
 ## Capturas de Tela:
 
-<img src="assets/img/print pg 1.png">
-<img src="assets/img/print pg 2.png">
+### Página de Listagem:
+<img src="src/assets/img/print pg 1.png">
+
+### Página de Cadastro:
+<img src="src/assets/img/print pg 2.png">
 
 ##
