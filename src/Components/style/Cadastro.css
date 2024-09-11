@@ -1,0 +1,352 @@
+.nova-area{
+    width: 111px;
+    height: 30px;
+    left: 25px;
+    top: 148px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #1C5297;
+
+}
+
+.container-nome{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 842px;
+    height: 56px;
+    left: 34px;
+    top: 226px;
+
+}
+
+#nome{
+    box-sizing: border-box;
+    position: absolute;
+    height: 45px;
+    left: 0%;
+    right: 0%;
+    top: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border: 0.7px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+
+
+}
+
+.text-nome{
+    width: 42px;
+    height: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 1%;
+
+}
+
+/* checkbox */
+
+#status{
+    display: none;
+}
+
+.switch{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 60px;
+    height: 26px;
+    background: #ff6565;
+    transition: all .5s ease-in-out;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.slider{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 10%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #FFFFFF;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+
+}
+
+#status:checked ~ .switch{
+    background-color: #4ECC8F;
+}
+
+#status:checked ~ .switch .slider{
+    transform: translateX(30px);
+}
+
+.status-toggle{
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 120%;
+    top: 32px;
+
+
+}
+
+
+.text-status{
+    width: 37px;
+    height: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    bottom: 90%;
+
+}
+
+.info-circle{
+    width: 11.62px;
+    height: 11.62px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.verificar{
+    position: absolute;
+    left: 80%;
+    right: 0%;
+    top: 10%;
+    bottom: 5.36%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* descrição */
+
+.container-descricao{
+    position: absolute;
+    width: 842px;
+    height: 94px;
+    left: 34px;
+    top: 314px;
+
+}
+
+#descricao{
+    box-sizing: border-box;
+    position: absolute;
+    height: 85px;
+    left: 0%;
+    right: -0.23%;
+    top: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    background: #FFFFFF;
+    border: 0.7px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+
+/* Unidades */
+.container-unidades {
+    position: absolute;
+    width: 844px;
+    height: 56px;
+    left: 34px;
+    top: 440px;
+}
+
+.MuiFormControl-root {
+    width: 100%;
+}
+
+#unidades-label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MuiInputBase-root {
+    box-sizing: border-box;
+    height: 32px;
+    background: #FFFFFF;
+    border: 0.7px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.MuiSelect-select {
+    padding-left: 10px;
+}
+
+.MuiChip-root {
+    margin: 4px 2px;
+}
+
+/* Serviços */
+.container-servicos {
+    position: absolute;
+    width: 844px;
+    height: 57px;
+    left: 34px;
+    top: 528px;
+}
+
+#servicos-label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MuiInputBase-root {
+    box-sizing: border-box;
+    position: absolute;
+    height: 45px;
+    left: 0%;
+    right: 0%;
+    top: 9px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border: 0.7px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.MuiSelect-select {
+    padding-left: 10px;
+}
+
+.MuiChip-root {
+    margin: 4px 2px;
+}
+
+
+/* Botao */
+
+.container-btn{
+    position: absolute;
+    height: 12%;
+    top: 756px;
+    width: 100%;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.buttons{
+    position: absolute;
+    width: 206px;
+    height: 32px;
+    left: 85%;
+    top: 60%;
+
+}
+
+.cancel{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 91px;
+    height: 32px;
+    right: 139px;
+    bottom: 28px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#link-cancelar{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.save {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 91px;
+    height: 32px;
+    right: 24px;
+    bottom: 28px;
+    background: rgba(28, 82, 151, 0.2);
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+
+.save.active {
+    background-color: #1C5297;
+    cursor: pointer;
+}
