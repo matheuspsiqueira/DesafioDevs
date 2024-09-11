@@ -42,5 +42,3 @@ Acesse o link: [Desafio Devs](https://desafio-devs.vercel.app/)
 
 ### Página de Cadastro:
 <img src="src/assets/img/print pg 2.png">
-
-##
